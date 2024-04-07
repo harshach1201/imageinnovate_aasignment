@@ -9,7 +9,7 @@ public class MobileNumber {
     private long id;
     private String mobileNumber;
     @ManyToOne
-    @JoinColumn(name = "employee_id")
+    @JoinColumn(name = "employeeId")
     private Employee employee;
 
     public MobileNumber() {
